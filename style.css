@@ -3,6 +3,8 @@
 #body{
     background-color: blueviolet;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container{
