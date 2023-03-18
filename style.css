@@ -1,0 +1,17 @@
+
+
+#body{
+    background-color: blueviolet;
+    display: flex;
+}
+
+.container{
+    width:80vh;
+    height: 1000px;
+    background-color: brown;
+}
+
+.content{
+    width: 100vw;
+    height: 20px;
+}
