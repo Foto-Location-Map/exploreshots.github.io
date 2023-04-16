@@ -16,7 +16,7 @@ body{
     overflow-x:hidden;
     padding: 0;
     margin: 0;
-    background-color: blueviolet;
+    background-color: black;
 }
 
 .viewport{
@@ -93,14 +93,14 @@ li a{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: yellow;
+    background-color: black;
     z-index: -2;
 }
 
 .show{
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-color: black;
     z-index: -2;
 }
 
