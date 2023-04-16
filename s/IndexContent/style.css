@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'monument_extendedultrabold';
+    src: url(../../c/fonts/monumentextended-ultrabold-webfont.woff2) format('woff2'),
+         url() format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    overflow-x:hidden;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.viewport{
+    max-width:100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.header{
+    position: fixed;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background-color: black;
+}
+
+h1{
+    margin: 0;
+    position: ab;
+    margin-left: 15px;
+    font-size: 26px;
+    font-family: 'monument_extendedultrabold';
+    color: white;
+}
+
+.actionbuttons{
+display: flex;    
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a{
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rbutton{
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.rbutton a{
+    color:black;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    z-index: -2;
+}
+
+.show{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    z-index: -2;
+}
