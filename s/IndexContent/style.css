@@ -127,6 +127,6 @@ video {
     color: white;
     text-align: center;
     font-size: 50px;
-    max-widht: 90vw;
+    max-width: 90vw;
     transform: translate(-50%, -50%);
 }
